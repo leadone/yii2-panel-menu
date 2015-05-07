@@ -17,8 +17,7 @@
 
    
     "require": {
-        "yiisoft/yii2": "*",
-        "timurmelnikov/yii2-panel-menu": "*"
+        "yiisoft/yii2": "*"
     },
 
   
