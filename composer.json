@@ -1,11 +1,11 @@
 {
-    "name": "TimurMelnikov/yii2-panel-menu",
+    "name": "timurmelnikov/yii2-panel-menu",
     "description": "Вертикальное меню",
     "keywords": [
         "bootstrap",
         "menu",
     ],
-    "homepage": "https://github.com/TimurMelnikov/yii2-panel-menu",
+    "homepage": "https://github.com/timurmelnikov/yii2-panel-menu",
     "type": "yii2-extension",
     "license": "BSD 3-Clause",
     "authors": [
