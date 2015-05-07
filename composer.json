@@ -14,10 +14,5 @@
             "email": "melnikovt@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
-    },
-    "autoload": {
-
-    }
+    "minimum-stability": "dev"
 }
