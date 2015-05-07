@@ -14,5 +14,10 @@
             "email": "melnikovt@gmail.com"
         }
     ],
+    
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
     "minimum-stability": "dev"
 }
