@@ -1,0 +1,23 @@
+{
+    "name": "timurmelnikov/yii2-panel-menu",
+    "description": "Виджет "Панель меню" для рализации вертикального меню",
+    "keywords": [
+        "bootstrap",
+        "menu",
+    ],
+    "homepage": "https://github.com/timurmelnikov/yii2-panel-menu",
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "Timur Melnikov",
+            "email": "melnikovt@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+
+    }
+}
