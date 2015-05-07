@@ -1,6 +1,6 @@
 <?php
 
-namespace timurmelnikov\widgets;
+namespace app\widgets;
 
 use yii\bootstrap\Widget;
 use yii\bootstrap\Nav;
