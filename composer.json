@@ -23,7 +23,7 @@
   
     "autoload": {
         "psr-4": {
-            "timurmelnikov\\yii2-panel-menu\\": ""
+            "timurmelnikov\\widgets\\": ""
         }
     }
 }
