@@ -6,7 +6,7 @@ use yii\bootstrap\Widget;
 use yii\bootstrap\Nav;
 
 /**
- * timurmelnikov\widgets\PanelMenu Виджет "Панель меню" для рализации вертикального меню...
+ * timurmelnikov\widgets\PanelMenu Виджет "Вертикальное меню"
  *
  * @author Тимур Мельников <melnikovt@gmail.com>
  * @since Версия 1.0
