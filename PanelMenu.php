@@ -6,7 +6,7 @@ use yii\bootstrap\Widget;
 use yii\bootstrap\Nav;
 
 /**
- * timurmelnikov\widgets\PanelMenu Виджет "Вертикальное меню"
+ * timurmelnikov\widgets\PanelMenu Виджет "Вертикальное меню bootstrap"
  *
  * @author Тимур Мельников <melnikovt@gmail.com>
  * @since Версия 1.0
