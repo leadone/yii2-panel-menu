@@ -5,7 +5,7 @@
 
     "type": "yii2-extension",
 
-    "description": "Вертикальное меню",
+    "description": "Вертикальное меню bootstrap",
     "keywords": ["yii2", "bootstrap", "menu"],
     "license": "BSD-3-Clause",
     "authors": [
