@@ -1,23 +1,23 @@
-Вертикальное меню Bootstrap panels
+Виджет "Вертикальное меню bootstrap"
 ==================================
 
-Реализация бокового вертикального меню, на основе компонента <a href="http://getbootstrap.com/components/#panels" target="blanc">Bootstrap panels</a> v1.1
+Реализация бокового вертикального меню, на основе компонента <a href="http://getbootstrap.com/components/#panels" target="blanc">Bootstrap panels</a>
 
 
-Installation
+Установка
 ------------
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+Установка с помощью [composer](http://getcomposer.org/download/).
 
-Either run
+Запустите
 
 ```
-composer require 2amigos/yii2-date-picker-widget:~1.0
+composer require yiisoft/yii2-swiftmailer:*
 ```
-or add
+или добавьте 
 
 ```json
-"2amigos/yii2-date-picker-widget" : "~1.0"
+"yiisoft/yii2-swiftmailer": "*"
 ```
 
-to the require section of your application's `composer.json` file.
+в секцию require файла `composer.json` Вашего приложения.
 
