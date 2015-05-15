@@ -1,10 +1,6 @@
 {
-  
-     "name": "timurmelnikov/yii2-panel-menu",
-
-
+    "name": "timurmelnikov/yii2-panel-menu",
     "type": "yii2-extension",
-
     "description": "Вертикальное меню bootstrap",
     "keywords": ["yii2", "bootstrap", "menu"],
     "license": "BSD-3-Clause",
@@ -14,18 +10,14 @@
             "email": "melnikovt@gmail.com"
         }
     ],
-
-   "minimum-stability": "dev",
+    "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*",
         "yiisoft/yii2-bootstrap": "*"
     },
-
-  
     "autoload": {
         "psr-4": {
             "timurmelnikov\\widgets\\": ""
         }
     }
 }
- 
