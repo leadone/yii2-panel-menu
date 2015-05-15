@@ -41,7 +41,6 @@ class PanelMenu extends Widget {
         if ($this->items === null) {
             $this->items = [];
         }
-
         if ($this->type === NULL) {
             $this->type = 'panel-default';
         }
@@ -52,28 +51,16 @@ class PanelMenu extends Widget {
      * @return string строка, содержащая HTML виджета
      */
     public function run() {
-
-
         if (isset($this->footer)) {
-
             $footer = '<div class="panel-footer">' . $this->footer . '</div>';
         } else {
-
             $footer = '';
         }
-
-
         if (isset($this->heading)) {
-
             $heading = '<div class="panel-heading">' . $this->heading . '</div>';
         } else {
-
             $heading = '';
         }
-
-
-
-
         return '<div class="panel ' . $this->type . '">'
                 . $heading
                 . '<div class="panel-body"> ' . Nav::widget([
