@@ -20,3 +20,6 @@ composer require yiisoft/yii2-swiftmailer:*
 ```
 в секцию require файла `composer.json` Вашего приложения.
 
+Использование:
+------------
+
