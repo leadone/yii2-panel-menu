@@ -9,7 +9,7 @@ use yii\bootstrap\Nav;
  * timurmelnikov\widgets\PanelMenu Виджет "Вертикальное меню bootstrap"
  *
  * @author Тимур Мельников <melnikovt@gmail.com>
- * @since Версия 1.0
+ * @since Версия 0.2
  */
 class PanelMenu extends Widget {
 
@@ -24,7 +24,7 @@ class PanelMenu extends Widget {
     public $heading;
 
     /**
-     * @var Подвал. (Еще не написал...)
+     * @var Подвал
      */
     public $footer;
 
@@ -41,9 +41,7 @@ class PanelMenu extends Widget {
         if ($this->items === null) {
             $this->items = [];
         }
-        if ($this->heading === null) {
-            $this->heading = 'Меню';
-        }
+
         if ($this->type === NULL) {
             $this->type = 'panel-default';
         }
@@ -54,14 +52,36 @@ class PanelMenu extends Widget {
      * @return string строка, содержащая HTML виджета
      */
     public function run() {
+
+
+        if (isset($this->footer)) {
+
+            $footer = '<div class="panel-footer">' . $this->footer . '</div>';
+        } else {
+
+            $footer = '';
+        }
+
+
+        if (isset($this->heading)) {
+
+            $heading = '<div class="panel-heading">' . $this->heading . '</div>';
+        } else {
+
+            $heading = '';
+        }
+
+
+
+
         return '<div class="panel ' . $this->type . '">'
-                . '<div class="panel-heading">' . $this->heading
-                . '</div>'
+                . $heading
                 . '<div class="panel-body"> ' . Nav::widget([
                     'options' => ['class' => 'nav-stacked'],
                     'items' => $this->items,
                 ])
                 . ' </div>'
+                . $footer
                 . '</div>';
     }
 
