@@ -51,16 +51,22 @@ class PanelMenu extends Widget {
      * @return string строка, содержащая HTML виджета
      */
     public function run() {
-        if (isset($this->footer)) {
-            $footer = '<div class="panel-footer">' . $this->footer . '</div>';
-        } else {
-            $footer = '';
-        }
+
+        //Заполнение заголовка
         if (isset($this->heading)) {
             $heading = '<div class="panel-heading">' . $this->heading . '</div>';
         } else {
             $heading = '';
         }
+
+        //Заполнение подвала
+        if (isset($this->footer)) {
+            $footer = '<div class="panel-footer">' . $this->footer . '</div>';
+        } else {
+            $footer = '';
+        }
+
+        //Возврат результата
         return '<div class="panel ' . $this->type . '">'
                 . $heading
                 . '<div class="panel-body"> ' . Nav::widget([
