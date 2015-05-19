@@ -11,12 +11,12 @@
 
 Запустите
 ```
-composer require yiisoft/yii2-swiftmailer:*
+composer timurmelnikov/yii2-panel-menu:*
 ```
 
 или добавьте 
 ```
-"yiisoft/yii2-swiftmailer": "*",
+"timurmelnikov/yii2-panel-menu": "*"
 ```
 в секцию require файла `composer.json` Вашего приложения.
 
