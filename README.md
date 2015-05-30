@@ -9,16 +9,15 @@
 
 Установка производится с помощью [composer](http://getcomposer.org/download/).
 
-Запустите
+Добавить в секцию "require" файла `composer.json` Вашего приложения:
 ```
-composer timurmelnikov/yii2-panel-menu:*
+{
+    "require": {
+        "timurmelnikov/yii2-panel-menu": "*"
+    }
+}
 ```
-
-или добавьте 
-```
-"timurmelnikov/yii2-panel-menu": "*"
-```
-в секцию require файла `composer.json` Вашего приложения.
+После редактирования файла выполнить команду `composer update`
 
 ##Использование:
 В представлении, где будет использоваться yii2-panel-menu, подключить:
