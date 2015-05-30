@@ -20,6 +20,13 @@ composer timurmelnikov/yii2-panel-menu:*
 ```
 в секцию require файла `composer.json` Вашего приложения.
 
-Использование:
-------------
+##Использование:
+В представлении, где будет использоваться yii2-panel-menu, подключить:
+``` php
+use timurmelnikov\widgets\PanelMenu;
+```
+Вывести виджет:
+``` php
+echo ShowLoading::widget(['loadingType' => 1]);
+```
 
