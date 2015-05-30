@@ -32,10 +32,10 @@ use timurmelnikov\widgets\PanelMenu;
                 ['label' => 'Пункт меню2', 'url' => ['#']],
                 ['label' => 'Пункт меню3', 'url' => ['#']],
             ],
-            'heading' => 'Текст заголовка',
-            'type' => 'panel-danger', //Тип
+            'heading' => 'Текст заголовка...',
+            'type' => 'panel-danger',
             'footer' => 'Текст подвала...'
         ]);
 ```
-Свойство type, может принимать значения - panel-success, panel-info, panel-warning, panel-danger
+Свойство `type`, может принимать значения - `panel-success`, `panel-info`, `panel-warning` или `panel-danger`
 
