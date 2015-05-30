@@ -27,6 +27,15 @@ use timurmelnikov\widgets\PanelMenu;
 ```
 Вывести виджет:
 ``` php
-echo ShowLoading::widget(['loadingType' => 1]);
+        echo PanelMenu::widget(['items' => [
+                ['label' => 'Пункт меню1', 'url' => ['#']],
+                ['label' => 'Пункт меню2', 'url' => ['#']],
+                ['label' => 'Пункт меню3', 'url' => ['#']],
+            ],
+            'heading' => 'Текст заголовка',
+            'type' => 'panel-danger', //Тип
+            'footer' => 'Текст подвала...'
+        ]);
 ```
+Свойство type, может принимать значения - panel-success, panel-info, panel-warning, panel-danger
 
