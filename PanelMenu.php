@@ -27,6 +27,16 @@ class PanelMenu extends Widget {
      * @var Подвал
      */
     public $footer;
+    
+    /**
+     * @var Сортировка
+     */
+    public $sort;    
+    
+    /**
+     * @var В виде выпадающего списка, 0 - нет, 1 -да, развернут, 2 - да, свернут
+     */
+    public $dropdown = 0;
 
     /**
      * @var Массив пунктов меню.
